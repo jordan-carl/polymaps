@@ -40,11 +40,6 @@ function callback(data) {
 
   /* Display copyright notice. */
   document.getElementById("copy").appendChild(document.createTextNode(data.copyright));
-
-  /* Display compass control. */
-  map.add(po.compass()
-      .pan("none"));
-
 }
 
 /** Returns a Bing URL template given a string and a list of subdomains. */
